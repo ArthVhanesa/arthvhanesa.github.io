@@ -16,6 +16,7 @@ const RepoCard = ({ repos }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
       {repos
+        .filter((item) => item.description)
         .sort((a, b) => {
           if (a.stargazers_count > b.stargazers_count) return -1;
           else if (a.stargazers_count < b.stargazers_count) return 1;

@@ -1,7 +1,7 @@
 import { companies, institutions } from "../data/data";
-import { skills } from "../data/skills";
+import { skills, keyToTitle } from "../data/skills";
 import { EduCard, SkillCap } from "../utils";
-import { Heading } from "../utils/Heading";
+import { Heading, HeadingSmall } from "../utils/Heading";
 
 const about = () => {
   return (
@@ -9,11 +9,17 @@ const about = () => {
       <section>
         <Heading text={"Tech Stack"} />
         <br />
-        <div className="mt-3 lg:px-5 w-full flex flex-wrap gap-4">
-          {skills.map((item) => (
-            <SkillCap key={item.id} {...item} />
+        {skills &&
+          Object.keys(skills).map((key) => (
+            <div key={key}>
+              <HeadingSmall text={keyToTitle[key]} />
+              <div className="my-3 lg:px-5 w-full flex flex-wrap gap-4">
+                {skills[key].map((item) => (
+                  <SkillCap key={item.id} {...item} />
+                ))}
+              </div>
+            </div>
           ))}
-        </div>
       </section>
 
       <section>
