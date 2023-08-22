@@ -12,10 +12,10 @@ const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const webLinks = [
-    { name: "Skills", path: "/about" },
+    { name: "Skills", path: "/skills" },
     { name: "Projects", path: "/projects" },
-    { name: "Repositories", path: "/open-source" },
-    // { name: 'Guestbook', path: '/guestbook' },
+    { name: "Repositories", path: "/repositories" },
+    { name: "About", path: "/about" },
   ];
 
   return (

@@ -66,7 +66,7 @@ export const skillsPrev = [
   },
 ];
 
-export const skills = {
+export const skill = {
   languages: [
     {
       id: 1,

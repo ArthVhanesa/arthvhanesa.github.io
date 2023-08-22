@@ -10,7 +10,7 @@ export const getStaticProps = async () => {
   };
 };
 
-const openSource = ({ data }) => {
+const repositories = ({ data }) => {
   return (
     <section>
       <Heading text="GitHub Repositories" />
@@ -20,4 +20,4 @@ const openSource = ({ data }) => {
   );
 };
 
-export default openSource;
+export default repositories;
