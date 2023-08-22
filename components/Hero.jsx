@@ -79,7 +79,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <h1 className="text-2xl font-normal leading-10">
+          <h1 className="text-2xl font-normal leading-10 selection:bg-sh-purple">
             <span className="block">
               I am{" "}
               <span className="font-bold tracking-widest animate-up bg-gradient-to-r from-sh-purple to-sh-purple cursor-default select-none">
