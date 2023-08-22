@@ -55,7 +55,7 @@ const NavBar = () => {
                 <Image
                   className="rounded-full"
                   src={UserImg}
-                  alt="Shafin Avatar"
+                  alt="Arth Avatar"
                   objectFit="contain"
                   draggable="false"
                 />

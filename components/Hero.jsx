@@ -50,7 +50,7 @@ const Hero = () => {
                 src={UserImg}
                 draggable="false"
                 // layout='fill'
-                alt="ShafinAvatar"
+                alt="Arth Avatar"
                 className="drop-shadow-md"
               />
               <div className="absolute bottom-0 flex-col items-center hidden w-32 -ml-24 mb-48 lg:group-hover:flex">
