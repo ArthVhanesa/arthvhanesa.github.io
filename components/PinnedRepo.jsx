@@ -3,8 +3,7 @@ import { useEffect, useState } from "react";
 import { HiCursorClick } from "react-icons/hi";
 import { GITHUB_API_URL, GITHUB_USERNAME } from "../config";
 import { featuredRepositories } from "../data/data";
-import { RepoCard } from "../utils";
-import { Heading } from "../utils/Heading";
+import { RepoCard, Heading } from "../utils";
 
 const PinnedRepo = () => {
   const [repositories, setRepositories] = useState([]);

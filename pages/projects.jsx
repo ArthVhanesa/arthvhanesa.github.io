@@ -1,6 +1,5 @@
 import { projectList } from "../data/projects";
-import { Description, ProjectCard } from "../utils";
-import { Heading } from "../utils/Heading";
+import { Description, ProjectCard, Heading } from "../utils";
 
 const projects = () => {
   return (

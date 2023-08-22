@@ -1,7 +1,6 @@
 import { companies, institutions } from "../data/data";
 import { skills, keyToTitle } from "../data/skills";
-import { EduCard, SkillCap } from "../utils";
-import { Heading, HeadingSmall } from "../utils/Heading";
+import { EduCard, SkillCap, Heading, HeadingSmall } from "../utils";
 
 const about = () => {
   return (

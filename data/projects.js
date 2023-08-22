@@ -24,7 +24,7 @@ export const projectList = [
     id: 3,
     title: "BookOcean - WebApp",
     des: "Taskeasy is a workflow Automation Tool for large and small teams that can connect apps and automate workflows, just like Zapier. It offers a simple setup and allows users to automate processes without a developer.",
-    tech: ["ReactJs", "NodeJs", "ExpressJS", "MongoDB"],
+    tech: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB"],
     url: "https://bookocean.netlify.app",
     image: BookOceanWebApp,
   },

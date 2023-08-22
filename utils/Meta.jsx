@@ -76,6 +76,6 @@ Meta.defaultProps = {
   twitterHandle: "@ArthVhanesa",
   siteUrl: "https://arthvhanesa.vercel.app/",
   name: "Arth Vhanesa",
-  googleVerification: "uomAFBUP56GraXFbmGjgWuKXOQUGdMpUqPDt3YreMYE",
+  googleVerification: "G5RQAsPLO46HvfhsoxL2jKvRZUgpJWHNaCNgtKfwMnA",
 };
 export default Meta;

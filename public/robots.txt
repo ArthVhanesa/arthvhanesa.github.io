@@ -4,4 +4,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: http://shafin.live/sitemap.xml
+Sitemap: http://arthvhanesa.vercel.app/sitemap.xml
