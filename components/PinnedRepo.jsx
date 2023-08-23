@@ -13,13 +13,13 @@ const PinnedRepo = () => {
         const reposData = await Promise.all(
           featuredRepositories.map(async (repoName) => {
             const response = await fetch(
-              `${GITHUB_API_URL}/repos/${GITHUB_USERNAME}/${repoName}`
+              `${GITHUB_API_URL}/repos/${GITHUB_USERNAME}/${repoName}`,
             );
             if (!response.ok) {
               throw new Error("Network response was not ok");
             }
             return await response.json();
-          })
+          }),
         );
 
         setRepositories(reposData);
