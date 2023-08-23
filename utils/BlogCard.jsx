@@ -25,19 +25,16 @@ const BlogCard = ({ blogs }) => {
             className="p-4 bg-sh-dark-500 border-2 border-sh-dark rounded-lg text-sh-white hover:shadow-lg transition-transform transform ease-in hover:scale-[1.02]"
           >
             <article className="flex flex-col justify-between">
-              {/* <div className="w-full"> */}
               <Image
                 src={item.coverImage}
                 draggable="false"
-                width={500}
-                height={300}
-                objectFit="contain"
+                width={1600}
+                height={840}
                 class="rounded-lg"
                 alt={item.title + " thumbnail"}
               />
-              {/* </div> */}
 
-              <header className="flex justify-between items-center mb-2">
+              <header className="flex justify-between items-center my-2">
                 <a
                   href={`https://arthvhanesa.hashnode.dev/${item.slug}`}
                   target="_blank"
@@ -48,7 +45,7 @@ const BlogCard = ({ blogs }) => {
                 </a>
               </header>
 
-              <p className="text-sh-white-500 text-justify overflow-hidden h-12">
+              <p className="text-sh-white-500 text-justify overflow-hidden text-ellipsis h-12">
                 {item.brief}
               </p>
             </article>
