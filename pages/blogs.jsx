@@ -42,6 +42,7 @@ const blogs = ({ data }) => {
           <a
             href="https://arthvhanesa.hashnode.dev/"
             target="_blank"
+            rel="noopener noreferrer"
             className="gap-2 text-sh-blue hover:text-sh-blue-500 text-base mt-10 transition ease-in w-auto flex justify-center"
           >
             <p>More Blogs</p>
