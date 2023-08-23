@@ -7,6 +7,7 @@ import ProjectCard from "./ProjectCard";
 import RepoCard from "./RepoCard";
 import RepoSkeleton from "./RepoSkeleton";
 import SkillCap from "./SkillCap";
+import Carousel from "./Carousel";
 
 export {
   Description,
@@ -19,4 +20,5 @@ export {
   RepoCard,
   RepoSkeleton,
   SkillCap,
+  Carousel,
 };

@@ -1,12 +1,17 @@
-import { Hero, Highlights, PinnedRepo } from "../components";
-import Contact from "../components/Contact";
-import DownloadResume from "../components/DownloadResume";
+import {
+  Hero,
+  Highlights,
+  PinnedRepo,
+  Contact,
+  Achievements,
+} from "../components";
 export default function Home() {
   return (
     <>
       <Hero />
       <Highlights />
       <PinnedRepo />
+      <Achievements />
       <Contact />
     </>
   );

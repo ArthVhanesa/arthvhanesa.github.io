@@ -80,3 +80,11 @@ export const socialMedia = [
     url: `mailto:${EMAIL}`,
   },
 ];
+
+export const hackathonWinImage = [
+  "/assets/images/hackathon/hackathon-1.webp",
+  "/assets/images/hackathon/hackathon-2.webp",
+  "/assets/images/hackathon/hackathon-3.webp",
+  "/assets/images/hackathon/hackathon-4.webp",
+  "/assets/images/hackathon/hackathon-5.webp",
+];
