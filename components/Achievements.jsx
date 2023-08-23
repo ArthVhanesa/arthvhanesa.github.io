@@ -43,7 +43,7 @@ export default function Achievements() {
               </a>
               to streamline and secure the land registry and transfer process.
             </span>
-            <span className="block">
+            <span className="block md:mb-0 mb-3">
               Read more about it{" "}
               <a
                 href={bhoomiBlogLink}
