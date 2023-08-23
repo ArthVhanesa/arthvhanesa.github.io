@@ -10,7 +10,7 @@ export const getStaticProps = async () => {
   };
 };
 
-const repositories = ({ data }) => {
+const showcase = ({ data }) => {
   return (
     <section>
       <Heading text="GitHub Repositories" />
@@ -20,4 +20,4 @@ const repositories = ({ data }) => {
   );
 };
 
-export default repositories;
+export default showcase;

@@ -37,7 +37,7 @@ const PinnedRepo = () => {
         <RepoCard repos={repositories} />
       </div>
       <div className="flex justify-center">
-        <Link href="/open-source">
+        <Link href="/showcase">
           <a className="gap-2 text-sh-blue hover:text-sh-blue-500 text-base mt-10 transition ease-in w-auto flex justify-center">
             <p>More Repositories</p>
             <HiCursorClick className="text-xl inline-block" />

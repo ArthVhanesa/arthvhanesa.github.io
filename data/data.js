@@ -71,7 +71,7 @@ export const socialMedia = [
     id: 3,
     label: "Twitter",
     icon: <FaTwitter />,
-    url: `https://www.linkedin.com/in/${TWITTER_USERNAME}`,
+    url: `https://twitter.com/${TWITTER_USERNAME}`,
   },
   {
     id: 4,

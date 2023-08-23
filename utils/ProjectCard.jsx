@@ -28,20 +28,22 @@ const ProjectCard = ({ leftAlign, image, title, des, tech, url }) => {
             </a>
             <div
               className={
-                "text-left text-xs md:text-base p-4 bg-sh-dark-500 border-2 border-sh-dark rounded-lg w-72 md:w-80 " +
-                (leftAlign ? "md:text-left" : "md:text-right")
+                "text-left text-xs md:text-base p-4 bg-sh-dark-500 border-2 border-sh-dark rounded-lg w-72 md:w-80"
               }
             >
               {des}
             </div>
             <div
               className={
-                "flex gap-4 p-1 mt-2 text-xs md:text-base text-sh-white cursor-default " +
+                "flex gap-4 p-1 mt-2 text-xs md:text-sm text-sh-white cursor-default " +
                 (leftAlign ? "justify-start" : "justify-start lg:justify-end")
               }
             >
               {tech.map((tech, index) => (
-                <div className={"rounded-md bg-sh-blue p-1"} key={index}>
+                <div
+                  className={"rounded-md bg-sh-blue p-1 text-center"}
+                  key={index}
+                >
                   {tech}
                 </div>
               ))}

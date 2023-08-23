@@ -23,7 +23,7 @@ export const projectList = [
   {
     id: 3,
     title: "BookOcean - WebApp",
-    des: "Taskeasy is a workflow Automation Tool for large and small teams that can connect apps and automate workflows, just like Zapier. It offers a simple setup and allows users to automate processes without a developer.",
+    des: "BookOcean WebApp | India's largest free ebook library with over 4.6M+ books, visited by more than 10k+ readers.",
     tech: ["ReactJs", "NodeJs", "ExpressJs", "MongoDB"],
     url: "https://bookocean.netlify.app",
     image: BookOceanWebApp,
@@ -31,7 +31,7 @@ export const projectList = [
   {
     id: 4,
     title: "Bhoomi",
-    des: "Developed a solution in response to a problem	statement given by the Revenue Department of India. Successfully created a comprehensive solution Bhoomi that streamlined land registry processes and improved accessibility through the SSI (Self-Sovereign Identity) model using Blockchain.",
+    des: "Developed a solution in response to a problem	statement given by the Revenue Department of India during SSIP hackathon 2022 that streamlined land registry processes and improved accessibility through the SSI (Self-Sovereign Identity) model using Blockchain.",
     tech: ["ReactJs", "Tailwind"],
     url: "https://bhoomi.site/",
     image: Bhoomi,

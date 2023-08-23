@@ -14,7 +14,7 @@ const NavBar = () => {
   const webLinks = [
     { name: "Skills", path: "/skills" },
     { name: "Projects", path: "/projects" },
-    { name: "Repositories", path: "/repositories" },
+    { name: "Showcase", path: "/showcase" },
     { name: "About", path: "/about" },
   ];
 
