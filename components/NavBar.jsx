@@ -24,7 +24,7 @@ const NavBar = () => {
       <div className="max-w-[50rem] mx-auto w-full px-5 py-2.5 md:px-10 lg:px-0">
         <div className="flex items-center w-full">
           <div className="w-3/4 justify-start items-center inline-flex">
-            <div className="dropdown">
+            {/* <div className="dropdown">
               <label
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
                 className="md:hidden"
@@ -50,7 +50,7 @@ const NavBar = () => {
                   ))}
                 </ul>
               )}
-            </div>
+            </div> */}
             <Link href="/">
               <a className="rounded-full border-2 border-sh-blue flex mr-7 w-10 h-10 scale-90 hover:scale-100 transition ease-in select-none">
                 <Image
@@ -93,6 +93,34 @@ const NavBar = () => {
             >
               <FaGithub />
             </a>
+          </div>
+
+          <div className="dropdown">
+            <label
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+              className="md:hidden"
+            >
+              <HiOutlineMenuAlt1 className="bg-sh-dark p-2 rounded-lg h-9 w-9 cursor-pointer" />
+            </label>
+            {isMenuOpen && (
+              <ul className="border border-sh-white-500 bg-sh-dark-500 bg-opacity-[0.97] backdrop-filter shadow-lg shadow-sh-dark-500 rounded-md absolute mt-3 px-2 right-2 py-5 w-64 space-y-5">
+                {webLinks.map((link, index) => (
+                  <li key={index} onClick={() => setIsMenuOpen(false)}>
+                    <Link href={link.path}>
+                      <a
+                        className={
+                          router.pathname == link.path
+                            ? "menu-item active"
+                            : "menu-item"
+                        }
+                      >
+                        {link.name}
+                      </a>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
           </div>
         </div>
       </div>
