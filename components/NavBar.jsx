@@ -89,7 +89,7 @@ const NavBar = () => {
               aria-label="github link"
               rel="noopener noreferrer"
               href={`https://github.com/${GITHUB_USERNAME}`}
-              className="cursor-pointer p-3 rounded-xl hover:bg-sh-dark transition ease-in"
+              className="cursor-pointer md:mr-0 mr-1  p-2 rounded-xl hover:bg-sh-dark transition ease-in"
             >
               <FaGithub />
             </a>
@@ -100,7 +100,7 @@ const NavBar = () => {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="md:hidden"
             >
-              <HiOutlineMenuAlt1 className="bg-sh-dark p-2 rounded-lg h-9 w-9 cursor-pointer" />
+              <HiOutlineMenuAlt1 className="bg-sh-dark p-2 rounded-xl h-9 w-9 cursor-pointer" />
             </label>
             {isMenuOpen && (
               <ul className="border border-sh-white-500 bg-sh-dark-500 bg-opacity-[0.97] backdrop-filter shadow-lg shadow-sh-dark-500 rounded-md absolute mt-3 px-2 right-2 py-5 w-64 space-y-5">

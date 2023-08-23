@@ -10,7 +10,7 @@ export const featuredRepositories = [
   "gtu-app",
   "BookOcean-RN-App",
   "BookOcean-WebApp",
-  "ExpressJs-api-template",
+  // "ExpressJs-api-template",
   "tmkoc-chrome-extension",
 ];
 
