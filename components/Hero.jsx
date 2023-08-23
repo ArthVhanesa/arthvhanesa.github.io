@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useRef, useState } from "react";
 import { greetingList } from "../data/greetings";
 import UserImg from "../public/assets/images/icons/arth-logo.png";
+import DownloadResume from "./DownloadResume";
 
 const Hero = () => {
   const typingIntervalRef = useRef(null);
@@ -79,7 +80,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <h1 className="text-2xl font-normal leading-10 selection:bg-sh-purple">
+          <h1 className="text-2xl font-normal leading-10 selection:bg-sh-purple mb-4">
             <span className="block">
               I am{" "}
               <span className="font-bold tracking-widest animate-up bg-gradient-to-r from-sh-purple to-sh-purple cursor-default select-none">
@@ -95,6 +96,7 @@ const Hero = () => {
               over 10k+ downloads combined.
             </span>
           </h1>
+          <DownloadResume />
         </div>
       </div>
       <div
