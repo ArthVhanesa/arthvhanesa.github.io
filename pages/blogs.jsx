@@ -36,7 +36,6 @@ const blogs = ({ data }) => {
       <Heading text={"Blogs"} />
       <Description text="Discover recent blogs I have written" />
       <div className="space-y-10">
-        {console.log(data)}
         {<BlogCard blogs={data} />}
         <div className="flex justify-center">
           <a
