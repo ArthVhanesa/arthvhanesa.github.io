@@ -1,5 +1,6 @@
 import { SessionProvider } from "next-auth/react";
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { PageLayout } from "../components";
 import "../styles/globals.css";
 
@@ -14,6 +15,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
     <SessionProvider session={session}>
       <PageLayout>
         <Component {...pageProps} />
+        <Analytics />
       </PageLayout>
     </SessionProvider>
   );
