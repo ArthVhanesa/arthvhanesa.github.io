@@ -10,9 +10,6 @@ export default function Contact() {
         loading="lazy"
         width="100%"
         height="456"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
         title="Get in touch"
       ></iframe>
 
