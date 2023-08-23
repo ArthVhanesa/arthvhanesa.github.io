@@ -82,9 +82,9 @@ export const socialMedia = [
 ];
 
 export const hackathonWinImage = [
-  "/assets/images/hackathon/hackathon-1.webp",
-  "/assets/images/hackathon/hackathon-2.webp",
-  "/assets/images/hackathon/hackathon-3.webp",
-  "/assets/images/hackathon/hackathon-4.webp",
-  "/assets/images/hackathon/hackathon-5.webp",
+  "/assets/images/hackathon/hackathon-1.jpg",
+  "/assets/images/hackathon/hackathon-2.jpg",
+  "/assets/images/hackathon/hackathon-3.jpg",
+  "/assets/images/hackathon/hackathon-4.jpg",
+  "/assets/images/hackathon/hackathon-5.jpg",
 ];
