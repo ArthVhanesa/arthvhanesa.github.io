@@ -11,12 +11,11 @@ export default function Contact() {
         </h1>
         <h1 className="text-xl mb-5 text-sh-white-500 text-center">
           I&apos;d love to hear from you! Whether you have a project in mind,
-          want to collaborate, or just want to say hi, feel free to drop me a
-          line.
+          want to collaborate, or just want to say hi, don&apos;t hesitate to
+          drop me a line.
           <br />
-          I am also open to job opportunities, so if you&apos;re looking for
-          someone with my skills, please get in touch. I&apos;ll do my best to
-          get back to you as soon as possible.
+          I am open to new job opportunities and would love to hear from you if
+          my skills match your needs. Please feel free to reach out to me.
           <br /> Looking forward to connecting with you!
         </h1>
         <a href="https://tally.so#tally-open=wveqKA&tally-layout=modal&tally-overlay=1&tally-emoji-text=👋&tally-emoji-animation=wave&tally-auto-close=2000">
