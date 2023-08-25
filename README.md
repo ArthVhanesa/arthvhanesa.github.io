@@ -16,7 +16,7 @@ A personal portfolio website to show skills, experiences, and projects
 ## Built with
 
 - **Framework**: [Next.js](https://nextjs.org/)
-- **API**: [Github API](https://api.github.com) [Hashnode API](https://api.hashnode.com)
+- **API**: [Github API](https://api.github.com), [Hashnode API](https://api.hashnode.com)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Icon Packs**: [React-Icons](https://react-icons.github.io/react-icons/)
 - **Deployment**: [Vercel](https://vercel.com)
