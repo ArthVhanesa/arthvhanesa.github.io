@@ -11,12 +11,13 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   // 	}
   // }, []);
 
+  const getLayout =
+    Component.getLayout || ((page) => <PageLayout>{page}</PageLayout>);
+
   return (
     <SessionProvider session={session}>
-      <PageLayout>
-        <Component {...pageProps} />
-        <Analytics />
-      </PageLayout>
+      {getLayout(<Component {...pageProps} />)}
+      <Analytics />
     </SessionProvider>
   );
 }

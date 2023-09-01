@@ -13,6 +13,13 @@
   }
 }
 
+html,
+body,
+#__next {
+  height: 100%;
+  width: 100%;
+}
+
 @layer components {
   .animate-up {
     @apply transition-all duration-700 ease-out !bg-[length:4px_3px] !bg-[0_100%] !bg-repeat-x;
