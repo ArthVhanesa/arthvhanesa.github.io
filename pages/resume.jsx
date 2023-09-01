@@ -1,12 +1,11 @@
 const resume = () => {
   return (
-    <div className="w-full h-full ">
+    <div className="w-full h-full">
       <iframe
-        src="https://arthvhanesa.vercel.app/assets/files/ArthVhanesaResume.pdf"
-        //   type="application/pdf"
-        width="100%"
-        height="100%"
-      />
+        src="https://docs.google.com/gview?url=https://arthvhanesa.vercel.app/assets/files/ArthVhanesaResume.pdf&embedded=true"
+        style={{ width: "100%", height: "100%" }}
+        frameborder="0"
+      ></iframe>
     </div>
   );
 };
