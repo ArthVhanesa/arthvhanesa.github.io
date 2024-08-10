@@ -18,7 +18,7 @@ export const companies = [
   {
     id: 1,
     institution: "Crest Data Private Limited",
-    logo: "/assets/images/companies/crest-data.png",
+    logo: "/assets/images/companies/crest_data.png",
     degree: "Software Engineer",
     startDate: "Dec 2022",
     endDate: "Present",
