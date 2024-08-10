@@ -17,6 +17,14 @@ export const featuredRepositories = [
 export const companies = [
   {
     id: 1,
+    institution: "Crest Data Private Limited",
+    logo: "/assets/images/companies/crest_data.png",
+    degree: "Software Engineer",
+    startDate: "Dec 2022",
+    endDate: "Present",
+  },
+  {
+    id: 2,
     institution: "WeHear Innovations Private Limited",
     logo: "/assets/images/companies/wehear.png",
     degree: "Flutter Application Developer - Intern",
@@ -24,7 +32,7 @@ export const companies = [
     endDate: "Dec 2022",
   },
   {
-    id: 2,
+    id: 3,
     institution: "Red Reality",
     logo: "/assets/images/companies/redreality.png",
     degree: "Web Developer - Intern",
